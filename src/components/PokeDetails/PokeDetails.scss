@@ -10,7 +10,17 @@
 
   margin: 0 auto;
   max-width: 400px;
+  max-height: 90vh;
   text-transform: capitalize;
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 5px; /* width for vertical scroll */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #2eaa15;;
+    border-radius: 9em;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+  }
 
   border: 2px solid rgb(151, 84, 84);
 
